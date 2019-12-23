@@ -1,7 +1,7 @@
 /* mobile style */
 /* *base* */
 html,body,form {
-    margin: 0px;
+    margin: 7px;
     padding:0;
 }
 body > * {
@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 ul, p {
     margin: 0;
+
  }
  a {
     font-family: SFProText-Semibold;
@@ -28,12 +29,14 @@ ul, p {
     background-image: linear-gradient(to left, rgb(171, 0, 255), rgb(0, 123, 255));
 }
 
+
+
 img{
 max-width: 100%;
 
 }
 header, section, nav {
-    margin-bottom: 120px;;
+    margin-bottom: 120px;
 }
 nav{
    margin-top: 30px; 
@@ -61,11 +64,11 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
 }
 .nav__menu-icon-wrapper{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
 }
 .nav__list-item{
     list-style-type: none;
@@ -75,7 +78,10 @@ nav{
 .nav__image{
     max-width: 150px;
 }
+.nav-show-list{
+    display: none;
 
+}
 
 .nav__menu-line {
     display: block;
@@ -123,6 +129,7 @@ nav{
     font-size: 24px;
     color: #393939;
     letter-spacing: 0.5px;
+    margin-bottom: 10px;
 }
 
 
@@ -138,6 +145,8 @@ nav{
 
 .features__image{
     max-width: 370px;
+    box-shadow: 1px 1px 25px 0 rgba(0,0,0,0.25);
+    
 }
 .features__container-card{
 display: flex;
@@ -257,10 +266,10 @@ height: 35px;
     }
     /* layout */
     
-    /* Block */
-    /* .nav-show-list {
-        display: none;
-    } */
+    
+    .nav-show-list {
+        display: block;
+    } 
     .nav__menu-line {
         display: none;
     }
@@ -334,7 +343,7 @@ height: 35px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 30px;
+        margin-bottom: 100px;
     }
 
 
@@ -354,6 +363,7 @@ height: 35px;
         }
     .products{
         grid-template-columns: repeat(5, 1fr);
+        justify-items: center;
     }
     .products__image-wrapper:last-child {
         grid-column: auto;
@@ -376,8 +386,7 @@ height: 35px;
     } */
     
     .footer__cointiner{
-        height: 100vh;
-        
+        height: 50vh;
         background-image: url('./img/footer-bg-texture.png');
         background-size: cover;
         background-position: center center;
@@ -386,7 +395,7 @@ height: 35px;
     }
     .footer{
         background-image: linear-gradient(218deg, #AB00FF 0%, #007BFF 100%);
-        width: 2000px ;
+        width: 2400px ;
         height: 500px;
         
     }
