@@ -210,7 +210,7 @@ background-image: linear-gradient(to left, rgb(171, 0, 255), rgb(0, 123, 255));
 
 .footer{
     background-image: linear-gradient(218deg, #AB00FF 0%, #007BFF 100%);
-    min-width: 350px;
+    min-width: 375px;
     height: 375px;
 }
 .footer__font{
@@ -229,6 +229,8 @@ background-image: linear-gradient(to left, rgb(171, 0, 255), rgb(0, 123, 255));
     color: #FFFFFF;
     letter-spacing: 0.5px;
     text-align: center;
+    padding-top: 30px;
+
 }
 
 .footer__row{
@@ -412,6 +414,7 @@ height: 35px;
         color: #FFFFFF;
         letter-spacing: 1px;
         text-align: center;
+        padding-top: 50px;
     }
     .footer__input{
      opacity: 0.4;
@@ -422,8 +425,12 @@ height: 35px;
     }
 
 
-    
-
+  .contact-container{
+      margin-bottom: 50px;
+  }
+  .footer__font{
+      margin: 10px;
+  }
     .footer__button{
         background-color: #FFFFFF;
         font-family: SFProText-Semibold;
