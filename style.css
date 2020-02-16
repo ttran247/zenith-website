@@ -202,6 +202,10 @@ background-image: linear-gradient(to left, rgb(171, 0, 255), rgb(0, 123, 255));
     max-width: 100px;
 }
 
+  .features__image{
+        max-width: 100%;
+    }
+
 .footer__cointiner{
     background-image: url('./img/footer-bg-texture.png');
     background-size: cover;
